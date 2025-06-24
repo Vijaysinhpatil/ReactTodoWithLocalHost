@@ -1,0 +1,38 @@
+.todo-app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-todo input {
+  flex-grow: 1;
+  padding: 8px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 5px 0;
+  background: #f0f0f0;
+}
+
+.todo-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.todo-list li span {
+  cursor: pointer;
+}
